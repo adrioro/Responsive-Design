@@ -178,3 +178,9 @@ section.share {
   margin: 0 auto 5px;
   padding: 5px 0;
 }
+section.get {
+  width: 100%;
+  height: 100px;
+  background: rgb(113, 80, 109);
+
+}
