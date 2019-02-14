@@ -182,5 +182,10 @@ section.get {
   width: 100%;
   height: 100px;
   background: rgb(113, 80, 109);
-
+}
+section.get h2 {
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-size: 258%;
+    color: rgb(255,255,255);
+    margin-left:  60px;
 }
