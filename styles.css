@@ -87,7 +87,7 @@ section.hero p{
   margin: 70px 0 0 20px;
 }
 .button {
-  width: 225;
+  width: 225px;
   height: 45px;
   background: url(images/buttonbg.jpg);
   text-align: center;
@@ -96,4 +96,6 @@ section.hero p{
   margin: 5px 5px 0 0;
   border:  1px solid rgb(205,101,14);
   border-radius: 5px;
+  /*All these shadows must be in a single line to work.!*/
+  box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.5), 0px 2px 0px 0px rgba(185, 91, 12, 1),inset 0px 1px 0px 0px rgba( 255,255,255,0.5);
 }
