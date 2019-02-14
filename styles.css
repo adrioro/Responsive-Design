@@ -161,3 +161,14 @@ section.organize img{
   margin-left: 20px;
   margin-top:  20px;
 }
+.organizecontent {
+  float: left;
+  margin-left: 20px;
+  width: 440px;
+}
+.organizecontent h2 {
+  font-family: 'Oleo Script Swash Caps', cursive;
+  color: rgb(113, 80, 109);
+  font-size: 225%;
+  margin-bottom: -20px;
+}
