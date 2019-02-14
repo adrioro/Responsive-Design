@@ -188,4 +188,14 @@ section.get h2 {
     font-size: 258%;
     color: rgb(255,255,255);
     margin-left:  60px;
+    margin-top: 25px;
+    font-weight: normal;
+    float: left;
+}
+section.get .button {
+  width: 150px;
+  height: 38px;
+  margin-right: 68px;
+  margin-top: 25px;
+  padding-top: 7px;
 }
