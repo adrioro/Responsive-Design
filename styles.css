@@ -154,21 +154,27 @@ section.organize {
   border-top: 1px solid rgb(200,200,200);
   border-bottom: 1px solid rgb(200,200,200);
 }
-section.organize img{
+section.organize img, section.share img {
   width:440px;
   height: 225px;
   float: left;
   margin-left: 20px;
   margin-top:  20px;
 }
-.organizecontent {
+.organizecontent, .sharecontent {
   float: right;
   margin-left: 20px;
   width: 440px;
 }
-.organizecontent h2 {
+.organizecontent h2, .sharecontent h2 {
   font-family: 'Oleo Script Swash Caps', cursive;
   color: rgb(113, 80, 109);
   font-size: 225%;
   margin-bottom: -20px;
+}
+section.share {
+  width: 948px;
+  height: 260px;
+  margin: 0 auto 5px;
+  padding: 5px 0;
 }
