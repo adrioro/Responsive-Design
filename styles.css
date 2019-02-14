@@ -102,3 +102,6 @@ section.hero p{
 }
 .button a {color: white; text-decoration: none; text-shadow: 2px, 2px, 2px 0px rgba(0,0,0,0.25);
 }
+.button:hover {
+  background: url(images/buttonbg_o.jpg);
+}
