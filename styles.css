@@ -98,6 +98,7 @@ section.hero p{
   border-radius: 5px;
   /*All these shadows must be in a single line to work.!*/
   box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.5), 0px 2px 0px 0px rgba(185, 91, 12, 1),inset 0px 1px 0px 0px rgba( 255,255,255,0.5);
+  cursor: pointer; /* Important! To get the pointing hand over the button.*/
 }
 .button a {color: white; text-decoration: none; text-shadow: 2px, 2px, 2px 0px rgba(0,0,0,0.25);
 }
