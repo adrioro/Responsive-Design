@@ -64,6 +64,7 @@ section.hero {
   padding: 5px 0;
   background: url(images/herobg.jpg);
   background-size: 100% 100%;
+  margin-bottom: 70px;
 }
 .herocontent {
   width: 390px;
