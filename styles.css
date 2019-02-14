@@ -199,3 +199,15 @@ section.get .button {
   margin-top: 25px;
   padding-top: 7px;
 }
+footer {
+  width: 100%;
+  heigh: 60px;
+  padding: 5px 0;
+  text-align: center;
+}
+footer nav li a {
+foont-size: 80%;
+color: rgb(0,0,0);
+text-decoration: imderline;
+font-weight: normal;
+}
