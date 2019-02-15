@@ -214,12 +214,12 @@ font-weight: normal;
   body { background-color: red;}
 
   header {  }
-  	#logo {  }
-  	#logo img {width:60%; margin-top: 8px;}
+  	#logo {}
+  	#logo img { width:25%; }
   	nav {  }
-  	nav li { margin-right: 12px; font-size: 85%;}
+  	nav li { margin-right: 15px; font-size: 90%; }
   	nav li a {  }
-  	input.search {  }
+  	input.search { width: 10%; }
 
   section.hero {  }
   	.heroimage {  }
