@@ -209,14 +209,15 @@ font-weight: normal;
 }
 
 /* THESE RULES APPLY TO THE MEDIUM REZ DISPLAY, AND CASCADE TO THE LOW REZ DISPLAY.*/
-@media (max-width: 768px){
-  body {  }
+@media only screen and (max-width: 768px) {
+
+  body { background-color: red;}
 
   header {  }
   	#logo {  }
-  	#logo img {  }
+  	#logo img {width:50%; }
   	nav {  }
-  	nav li {  }
+  	nav li { margin-right: 10px; font-size: 90%;}
   	nav li a {  }
   	input.search {  }
 
@@ -251,5 +252,8 @@ font-weight: normal;
   	footer nav {  }
   	footer nav li a {  }
 
-  .container {  }
+  .container {
+    width:100%;
+  }
+
 }
