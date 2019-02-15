@@ -215,9 +215,9 @@ font-weight: normal;
 
   header {  }
   	#logo {  }
-  	#logo img {width:50%; }
+  	#logo img {width:60%; margin-top: 8px;}
   	nav {  }
-  	nav li { margin-right: 10px; font-size: 90%;}
+  	nav li { margin-right: 12px; font-size: 85%;}
   	nav li a {  }
   	input.search {  }
 
