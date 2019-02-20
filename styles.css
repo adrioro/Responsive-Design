@@ -211,7 +211,7 @@ font-weight: normal;
 /* THESE RULES APPLY TO THE MEDIUM REZ DISPLAY, AND CASCADE TO THE LOW REZ DISPLAY.*/
 @media only screen and (max-width: 768px) {
 
-  body { background-color: red;} /* background for guidance only*/
+  body { } /* background for guidance only*/
 
   header {  }
   	#logo {}
@@ -231,22 +231,22 @@ font-weight: normal;
   	.button:hover {  }
 
   section.features {width:100%;}
-  	section.features h2 {  }
+  	section.features h2 { margin-top: 20px;}
   	section.features h4 {  }
-  	section.features aside {  }
-  	section.features aside img {  }
+  	section.features aside { width:33%; height: auto; margin-left: 0;}
+  	section.features aside img { width:100%; height: auto;}
   	section.features aside h3 {  }
 
-  section.organize {  }
-  	section.organize img, section.share img {  }
-  	.organizecontent, .sharecontent {  }
-  	.organizecontent h2, .sharecontent h2 {  }
-
-  section.share {  }
+  section.organize { padding: 0 0 80 0;}
+  	section.organize img, section.share img { width: 50%; height: auto; margin-left:10px; margin-top: 60px; }
+  	.organizecontent, .sharecontent {  width:40%;}
+  	.organizecontent h2, .sharecontent h2 { line-height: 90%; margin-bottom: 5px; margin-left:10px;}
+section.organize, .container {height: 330px;}
+  section.share { width:100%; padding: 0 0 80px 0; }
 
   section.get {  }
-  	section.get h2 {  }
-  	section.get .button {  }
+  	section.get h2 { font-size: 180%; margin-left: 10px;}
+  	section.get .button { margin-right: 10px;}
 
   footer {  }
   	footer nav {  }
