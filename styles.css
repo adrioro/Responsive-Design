@@ -277,19 +277,21 @@ section.organize, .container {height: 330px;}
   	.button a {  }
   	.button:hover {  }
 
-  section.features { height: 500px;}
+  section.features { height: 430px;}
   	section.features h2 { margin-bottom: 9px;}
   	section.features h4 {padding-right: 9px; padding-left: 9px;}
   	section.features aside {  }
   	section.features aside img {  }
-  	section.features aside h3 {  }
+  	section.features aside h3 { font-size: 20px; padding-top: 9px;}
 
-  section.organize {  }
-  	section.organize img, section.share img {  }
-  	.organizecontent, .sharecontent {  }
+  section.organize { height: 360px; }
+  	section.organize img, section.share img { float:right; margin:0 auto; }
+  	.organizecontent, .sharecontent { float:none; margin:0 auto; text-align: center;width: 300px;}
   	.organizecontent h2, .sharecontent h2 {  }
 
   section.share {  }
+
+section.sharecontent img {border: 2px solid red:}
 
   section.get {  }
   	section.get h2 {  }
