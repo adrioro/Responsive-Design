@@ -230,7 +230,7 @@ font-weight: normal;
   	.button a {  }
   	.button:hover {  }
 
-  section.features {  }
+  section.features {width:100%;}
   	section.features h2 {  }
   	section.features h4 {  }
   	section.features aside {  }
