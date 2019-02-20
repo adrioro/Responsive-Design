@@ -81,7 +81,7 @@ section.hero p{
   margin-bottom: 60px;
 }
 .heroimage{
-  margin: 70px 0 0 20px;
+  margin: 70px 0 0 20px; float:left;
 }
 .button {
   width: 225px;
@@ -258,28 +258,28 @@ section.organize, .container {height: 330px;}
 }
   /* THESE RULES APPLY TO THE LOW REZ DISPLAY, AND DO NOT CASCADE */
 @media (max-width: 401px) {
-  body {background-color: red;}
+  body {background-color: redrgb(247, 169, 104);}
 
-  header {  }
-  	#logo {  }
-  	#logo img {  }
-  	nav {  }
+  header { height:110px; }
+  	#logo { margin:0 auto; width: 150px; }
+  	#logo img { margin: 00 10px 0; width:180px; }
+  	nav { float:none; margin-left: -15px; }
   	nav li {  }
   	nav li a {  }
-  	input.search {  }
+  	input.search { display:none; }
 
-  section.hero {  }
-  	.heroimage {  }
-  	.herocontent {  }
-  	section.hero h1 {  }
+  section.hero {background-size: 1000px 800px; height:650px; padding-bottom: 20px;}
+  	.heroimage {width: 300px; float: none; margin-bottom: 0px; margin-bottom: 0px;}
+  	.herocontent {float:none; width: 300px; text-align: center;padding-top: 0px;}
+  	section.hero h1 { }
   	section.hero p {  }
-  	.button {  }
+  	.button { margin: 0 auto; }
   	.button a {  }
   	.button:hover {  }
 
-  section.features {  }
-  	section.features h2 {  }
-  	section.features h4 {  }
+  section.features { height: 500px;}
+  	section.features h2 { margin-bottom: 9px;}
+  	section.features h4 {padding-right: 9px; padding-left: 9px;}
   	section.features aside {  }
   	section.features aside img {  }
   	section.features aside h3 {  }
